@@ -1,0 +1,7 @@
+def get_nasa_image(query):
+    # Example: If user asks about Mars, give the Canva Mars link
+    links = {
+        "mars": "https://www.canva.com/design/DAG9nxdAZio/NKjPUZ3YzdWcOJUDZ1SCKg/edit.png",
+        "moon": "https://www.canva.com/design/DAG9nxdAZio/NKjPUZ3YzdWcOJUDZ1SCKg/edit.png"
+    }
+    return links.get(query.lower(), "Link not found")
