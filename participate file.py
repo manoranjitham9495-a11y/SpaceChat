@@ -1,0 +1,6 @@
+print("Name:")
+print("Roll Number:")
+print("Hobbies:")
+print("Github ID:") 
+print("Tech Parent:")
+print("Favorite Society:")
